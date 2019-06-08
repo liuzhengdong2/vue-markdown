@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1>vue-markdown编辑器组件</h1>
-      <a target="_blank" href="https://github.com/zhaoxuhui1122/vue-markdown">使用文档</a>
+      <h1>编辑器</h1>
+      <a target="_blank" href="https://github.com/zhaoxuhui1122/vue-markdown">关于如何使用这个编辑器</a>
       <div class="content">
         <mark-down @on-save="save" :theme="theme" :initialValue="initialValue"></mark-down>
       </div>
@@ -11,11 +11,12 @@
 </template>
 
 <script>
-  // import MarkDown from './markdown/index' // 开发文件
-  import MarkDown from "../build"; // 引入打包好的文件
+  import MarkDown from './markdown/index' // 开发文件
+  //import MarkDown from "../build"; // 引入打包好的文件
   // import MarkDown from 'vue-meditor';
+  import doc from './doc.md'
+  
 
-  import doc from './doc';
   export default {
     name: "app",
     components: {

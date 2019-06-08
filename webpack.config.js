@@ -42,6 +42,10 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /.md$/,
+        loader:'text-loader'
       }
     ]
   },

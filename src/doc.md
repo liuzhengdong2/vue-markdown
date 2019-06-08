@@ -1,4 +1,5 @@
-export default `# vue-Markdown编辑器
+
+# vue-Markdown编辑器
 
 [在线示例地址](https://zhaoxuhui1122.github.io/vue-markdown/)
 
@@ -150,4 +151,3 @@ const config = {
 2. 修复文档初始化值无法动态切换的问题
 
 
-`
